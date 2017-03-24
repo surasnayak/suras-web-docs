@@ -5,7 +5,7 @@
 	<style>
 		table, th, td 
 		{
-    		border: 1px solid black;
+    		border: 2px solid black;
     		border-collapse: collapse;
 		}
 		td#r1c1, #r2c1, #r3c1
@@ -13,11 +13,23 @@
 			color:blue;
 			font-weight:bold;
 		}
+		#content img
+		{
+			float:right;
+			height:148px;
+			width:150px;
+			border:2px solid black;
+		}
 	</style>
 </head>
 
 <body>
 	<h1>Dog D.Dog</h1>
+
+	<div id="content">
+		<img src="puppy.jpg" alt="image here" />
+	</div>
+
 	<h2 style="color:blue;background-color:powderblue">About</h2>
 	<div>woof woof!</div>
 	<br>
@@ -25,12 +37,12 @@
 	<h2 style="color:blue;background-color:powderblue">Courses</h2>
 	<p>Here are some of the courses I have taken:</p>
 
-	<table style="width:100%;border: 1px solid black">
+	<table cellpadding="5" style="width:50%;border: 2px solid black;">
 		<col style="color:powderblue" />
 		<tr>
-			<th style="border: 1px solid black">Course Number</th>
-			<th style="border: 1px solid black">Course Title</th>
-			<th style="border: 1px solid black">Semester Taken</th>
+			<th>Course Number</th>
+			<th>Course Title</th>
+			<th>Semester Taken</th>
 		</tr>
 		<tr>
 			<th colspan="3" style="border: 1px solid black">For Credit</th>
